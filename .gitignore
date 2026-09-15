@@ -1,0 +1,10 @@
+__pycache__
+*.py[cod]
+venv/
+configs/
+tests/
+results/
+data/
+results_v2/
+*v2.py
+*v2.md

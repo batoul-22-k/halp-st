@@ -1,0 +1,14 @@
+torch
+transformers
+sentence-transformers
+datasets
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+pyyaml
+tqdm
+pytest
+tabulate
+

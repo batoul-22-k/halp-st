@@ -1,0 +1,23 @@
+[project]
+name = "halp-st-project"
+version = "0.1.0"
+description = "HALP-ST: Hierarchical Adaptive Layer-Token Pooling Sentence Transformer"
+requires-python = ">=3.10"
+dependencies = [
+  "torch",
+  "transformers",
+  "sentence-transformers",
+  "datasets",
+  "numpy",
+  "pandas",
+  "scipy",
+  "scikit-learn",
+  "matplotlib",
+  "pyyaml",
+  "tqdm",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
