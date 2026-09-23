@@ -1,7 +1,6 @@
 __pycache__
 *.py[cod]
 venv/
-tests/
 results/
 results_v2/
 *v2.py
