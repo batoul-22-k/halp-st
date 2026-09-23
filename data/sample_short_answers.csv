@@ -1,0 +1,22 @@
+question_id,reference_answer,student_answer,score,label
+q1,Photosynthesis converts light energy into chemical energy,Plants use sunlight to make food,1.0,correct
+q1,Photosynthesis converts light energy into chemical energy,Plants breathe through roots,0.0,incorrect
+q2,A firewall blocks unauthorized network traffic,It prevents unapproved traffic from entering the network,1.0,correct
+q2,A firewall blocks unauthorized network traffic,It makes computers faster,0.0,incorrect
+q3,Gravity attracts masses toward each other,Gravity pulls objects together,1.0,correct
+q3,Gravity attracts masses toward each other,Gravity is a type of weather,0.0,incorrect
+q4,Evaporation changes liquid water into vapor,Water becomes gas when heated,1.0,correct
+q4,Evaporation changes liquid water into vapor,Water freezes into ice,0.0,incorrect
+q5,The CPU executes instructions in a computer,The processor runs program instructions,1.0,correct
+q5,The CPU executes instructions in a computer,The screen stores files,0.0,incorrect
+q6,Mitosis produces two genetically identical cells,Cell division makes two matching cells,1.0,correct
+q6,Mitosis produces two genetically identical cells,Cells digest food in the stomach,0.0,incorrect
+q7,An acid donates hydrogen ions in solution,Acids release H plus ions,1.0,correct
+q7,An acid donates hydrogen ions in solution,Acids are always metals,0.0,incorrect
+q8,Democracy lets citizens participate in government,People vote or take part in governing,1.0,correct
+q8,Democracy lets citizens participate in government,A king inherits all authority,0.0,incorrect
+q9,Supply decreases can increase prices when demand stays constant,Less supply may raise prices,1.0,correct
+q9,Supply decreases can increase prices when demand stays constant,Prices always drop when supply falls,0.25,partial
+q10,Encryption protects data by transforming it with a key,It scrambles data so only key holders can read it,1.0,correct
+q10,Encryption protects data by transforming it with a key,It deletes unwanted files,0.0,incorrect
+
