@@ -1,0 +1,22 @@
+experiment_name: baseline_b0
+mode: finetune
+dataset:
+  name: stsb
+model:
+  variant: baseline
+  backbone: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+  pooling: mean
+  max_sequence_length: 128
+encoder:
+  freeze: false
+training:
+  loss: cosent
+  seed: 42
+  epochs: 4
+  batch_size: 16
+  learning_rate: 2.0e-5
+  warmup_ratio: 0.1
+  weight_decay: 0.01
+  gradient_accumulation: 1
+  mixed_precision: true
+

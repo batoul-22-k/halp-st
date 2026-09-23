@@ -1,0 +1,8 @@
+seeds: [13, 21, 42, 55, 87]
+configs:
+  - configs/baseline.yaml
+  - configs/baseline_max.yaml
+  - configs/baseline_attention.yaml
+  - configs/halpst.yaml
+  - configs/ablation_p1.yaml
+  - configs/ablation_p2.yaml

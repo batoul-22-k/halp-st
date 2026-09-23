@@ -1,0 +1,25 @@
+experiment_name: ablation_p1_layer_fusion_mean
+mode: finetune
+dataset:
+  name: stsb
+model:
+  variant: halpst
+  backbone: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+  max_sequence_length: 128
+  adaptive_layer_fusion: true
+  semantic_token_gate: false
+  residual_mean: false
+  projection: false
+encoder:
+  freeze: false
+training:
+  loss: cosent
+  seed: 42
+  epochs: 4
+  batch_size: 16
+  learning_rate: 2.0e-5
+  warmup_ratio: 0.1
+  weight_decay: 0.01
+  gradient_accumulation: 1
+  mixed_precision: true
+
