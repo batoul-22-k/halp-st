@@ -1,0 +1,1 @@
+Required columns: expected_answer, student_answer, true_label. All must be nonempty. Labels: correct, partial, incorrect (one per row). Optional question_id and score columns are retained as metadata only. Existing reference_answer and label aliases are accepted. Supply independently labeled real answers; do not use the bundled synthetic sample as thesis evidence.
